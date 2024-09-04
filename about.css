@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color:#2f4f4f ;
+}
+
+header {
+    background-color:#2f4f4f ;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    transition: all 0.3s;
+}
+h1:hover {
+    color: rgb(201, 12, 201);
+    font-size: 34px;
+}
+
+
+
+header p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header p a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+h2 {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+h2:hover {
+    color: rgb(201, 12, 201);
+    font-size: 26px;
+}
+
+.edu-item, .project, .experience {
+    margin-bottom: 15px;
+}
+
+.project ul, .experience ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.project a, .experience a {
+    color: #333;
+    text-decoration: none;
+}
+
+.project a:hover, .experience a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    width: 98.5%;
+    height: 10vh;
+    background-color: rgb(48, 45, 45);
+    border-radius: 5px;
+    margin-top: -30px;
+    margin-left: 10px;
+    text-align: center;
+    display:inline;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#acc {
+    color: white;
+    font-size: 25px;
+    margin-top: -40px;
+    transition: all 0.3s;
+}
+
+#acc:hover {
+    color: rgb(201, 12, 201);
+    font-size: 27px;
+}
+.media1 {
+    
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    transition: all 0.3s;
+}
+
+.media1:hover {
+    color: rgb(201, 12, 201);
+    font-size: 27px;
+}
